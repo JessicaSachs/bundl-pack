@@ -110,7 +110,7 @@ describe('CommonJS', function () {
         });
 
         describe('it builds a sourcemaps object', function (expect) {
-            expect(bp.sourcemaps.length).toBe(8);
+            expect(bp.sourcemaps.length).toBe(9);
         });
 
         describe('it maps dependencies to Bundl', function (expect) {
@@ -123,6 +123,7 @@ describe('CommonJS', function () {
                 'proc/proc.less',
                 'sub/unused.js',
                 'sub/two.js',
+                'sub/empty.js',
                 'one.js',
             ];
 
